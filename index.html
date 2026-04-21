@@ -6,20 +6,18 @@
   <title>Oupa Simango | DevOps Engineer</title>
   <meta name="description" content="Portfolio of Oupa Simango, a DevOps Engineer, Software Engineer, and Systems Administrator.">
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-  <!-- Background Animated Elements -->
+  <!-- Ambient Background -->
   <div class="bg-shape shape1"></div>
   <div class="bg-shape shape2"></div>
-  <div class="bg-shape shape3"></div>
 
   <!-- Navigation -->
   <nav class="glass-nav">
     <div class="nav-container">
-      <h1 class="logo">OS.</h1>
+      <h1 class="logo gradient-text">OS.</h1>
       <ul class="nav-links">
         <li><a href="#hero">Summary</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -27,7 +25,7 @@
         <li><a href="#education">Education</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <a href="assets/Oupa_Simango_CV.pdf" class="btn-primary" download>Download CV</a>
+      <a href="assets/Oupa_Simango_CV.pdf" class="btn-primary" download>Resume <i class="fas fa-download"></i></a>
     </div>
   </nav>
 
@@ -36,33 +34,39 @@
     <section id="hero" class="hero-section fade-in">
       <div class="hero-content">
         <div class="hero-text">
-          <p class="greeting">Hello World! I'm</p>
-          <h2 class="name">Oupa Simango</h2>
-          <h3 class="title">DevOps Engineer | Software Engineer</h3>
+          <p class="greeting">Hello World, I am</p>
+          <h2 class="name gradient-text">Oupa Simango</h2>
+          <h3 class="title">DevOps & Systems Engineer</h3>
           
-          <div class="contact-chips" style="margin-bottom: 2rem;">
+          <div class="full-bio">
+            <p>Computer Systems Engineering graduate (NQF Level 6) with 6+ years of cross-functional experience spanning DevOps automation, software engineering, systems administration, IoT infrastructure, hardware support, and cybersecurity.</p>
+            <p>I build secure CI/CD pipelines, robust Python automation, and heavily orchestrated Linux enterprise environments. Passionate about delivering reliable, well-documented solutions across the full IT stack.</p>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn-primary">Get in Touch</a>
+            <a href="#experience" class="btn-secondary">View Work</a>
+          </div>
+          
+          <div class="contact-chips">
             <a href="mailto:oupasimango50@gmail.com" class="chip"><i class="fas fa-envelope"></i> Email</a>
             <a href="tel:+27721108085" class="chip"><i class="fas fa-phone"></i> +27 72 110 8085</a>
             <a href="https://linkedin.com/in/oupa-simango" target="_blank" class="chip"><i class="fab fa-linkedin"></i> LinkedIn</a>
             <a href="https://github.com/oupasimango-Xib" target="_blank" class="chip"><i class="fab fa-github"></i> GitHub</a>
             <span class="chip"><i class="fas fa-map-marker-alt"></i> Johannesburg, SA</span>
           </div>
-
-          <div class="full-bio">
-            <p>Computer Systems Engineering graduate (NQF Level 6) with 6+ years of cross-functional experience spanning DevOps automation, software engineering, systems administration, IoT infrastructure, hardware support, and cybersecurity. Proficient in Python/Bash automation, CI/CD pipelines, Linux systems, Docker, and network infrastructure.</p>
-            <p style="margin-top: 1rem;">Holds CompTIA Cloud+ and Security+ certifications with hands-on experience in VLAN design, multi-site IoT deployment, SIEM monitoring, vulnerability assessment, and component-level hardware repair. A versatile technologist who delivers reliable, well-documented solutions across the full IT stack.</p>
-          </div>
         </div>
+
         <div class="hero-image-container">
+          <div class="image-glow"></div>
           <img src="assets/profile_pic.jpg" alt="Oupa Simango" class="hero-avatar">
-          <div class="glow-ring"></div>
         </div>
       </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" class="section fade-in">
-      <h2 class="section-title">Skills & Expertise</h2>
+      <h2 class="section-title">Skills & <span class="gradient-text">Expertise</span></h2>
       <div class="skills-grid">
         <div class="glass-card skill-card">
           <i class="fab fa-linux skill-icon"></i>
@@ -87,7 +91,7 @@
         <div class="glass-card skill-card">
           <i class="fas fa-network-wired skill-icon"></i>
           <h3>Networking & Cloud</h3>
-          <p>DNS/DHCP, VPN, VLAN segmentation, PoE, Active Directory, AWS fundamentals, IaC</p>
+          <p>DNS/DHCP, VPN, VLAN segregation, PoE, Active Directory, AWS fundamentals, IaC</p>
         </div>
         <div class="glass-card skill-card">
           <i class="fas fa-database skill-icon"></i>
@@ -104,23 +108,22 @@
 
     <!-- Experience Section -->
     <section id="experience" class="section fade-in">
-      <h2 class="section-title">Professional Experience</h2>
+      <h2 class="section-title">Professional <span class="gradient-text">Experience</span></h2>
       <div class="timeline">
         
-        <!-- Mindworx Consulting grouped -->
+        <!-- Mindworx Consulting -->
         <div class="timeline-item">
-          <div class="timeline-dot"></div>
           <div class="glass-card timeline-content">
             <h3 class="company-title">Mindworx Consulting</h3>
-            <span class="role-summary">Johannesburg</span>
+            <span class="role-summary"><i class="fas fa-map-marker-alt" style="margin-right: 5px;"></i> Johannesburg</span>
             
             <div class="sub-role">
               <h4>Software Engineer</h4>
               <span class="date">Oct 2025 – Mar 2026</span>
               <ul>
-                <li>Developed and maintained Python-driven automation systems supporting business operations — including data ingestion pipelines, scheduled task workflows, and real-time reporting dashboards.</li>
+                <li>Developed and maintained Python-driven automation systems supporting business operations including data ingestion pipelines and scheduled task workflows.</li>
                 <li>Produced comprehensive technical documentation, architecture diagrams, and runbooks.</li>
-                <li>Integrated REST APIs and Microsoft 365 APIs into automated workflows; led QA and testing cycles ensuring system stability and data integrity.</li>
+                <li>Integrated REST & Microsoft 365 APIs into workflows; led QA cycles ensuring stability and data integrity.</li>
               </ul>
             </div>
             
@@ -128,25 +131,24 @@
               <h4>System Support Specialist</h4>
               <span class="date">Apr 2025 – Sep 2025</span>
               <ul>
-                <li>Monitored system performance and infrastructure health across the organisation; diagnosed anomalies and resolved incidents within SLAs.</li>
-                <li>Built Power BI dashboards surfacing real-time infrastructure KPIs; maintained runbooks, support logs, and user guides.</li>
+                <li>Monitored system performance and infrastructure health across the organisation; diagnosed anomalies within SLAs.</li>
+                <li>Built Power BI dashboards surfacing real-time infrastructure KPIs; maintained continuous support logs.</li>
               </ul>
             </div>
           </div>
         </div>
 
-        <!-- PartServe grouped -->
+        <!-- PartServe -->
         <div class="timeline-item">
-          <div class="timeline-dot"></div>
           <div class="glass-card timeline-content">
             <h3 class="company-title">PartServe Channel Support (Pty) Ltd</h3>
-            <span class="role-summary">Johannesburg</span>
+            <span class="role-summary"><i class="fas fa-map-marker-alt" style="margin-right: 5px;"></i> Johannesburg</span>
             
             <div class="sub-role">
               <h4>Laptop & Hardware Technician</h4>
               <span class="date">Sep 2024 – Jan 2025</span>
               <ul>
-                <li>Diagnosed and repaired hardware faults at component level; reinstalled OS (Windows, macOS, Linux), performed virus removal and data recovery.</li>
+                <li>Diagnosed and repaired hardware faults at component level; reinstalled OS (Windows, macOS, Linux).</li>
               </ul>
             </div>
 
@@ -154,7 +156,7 @@
               <h4>PlayStation Console Technician</h4>
               <span class="date">Sep 2023 – Sep 2024</span>
               <ul>
-                <li>Executed diagnostics and repairs on PS4/PS5 consoles — component-level repairs (HDMI ports, power supplies, storage), and firmware updates.</li>
+                <li>Executed diagnostics and repairs on PS4/PS5 consoles (component repairs, storage, networking).</li>
               </ul>
             </div>
 
@@ -163,7 +165,7 @@
               <span class="date">Sep 2022 – Apr 2024</span>
               <ul>
                 <li>Deployed and maintained Linux-based IoT gateway devices across enterprise multi-site environments.</li>
-                <li>Applied firmware/security patches, configured PoE switches, VLAN segmentation, and IP allocations.</li>
+                <li>Applied firmware patches, configured PoE switches, VLAN architectures, and IP allocations.</li>
               </ul>
             </div>
           </div>
@@ -171,16 +173,15 @@
 
         <!-- Impactful -->
         <div class="timeline-item">
-          <div class="timeline-dot"></div>
           <div class="glass-card timeline-content">
             <h3 class="company-title">Impactful Specialist Solutions</h3>
-            <span class="role-summary">Johannesburg</span>
+            <span class="role-summary"><i class="fas fa-map-marker-alt" style="margin-right: 5px;"></i> Johannesburg</span>
             
             <div class="sub-role">
               <h4>Cybersecurity Trainee</h4>
               <span class="date">Mar 2022 – Aug 2022</span>
               <ul>
-                <li>Monitored enterprise SIEM platforms, firewalls, and IDS/IPS systems; supported vulnerability assessments and maintained documentation.</li>
+                <li>Monitored enterprise SIEM platforms, firewalls, and IDS/IPS systems; supported vulnerability assessments.</li>
               </ul>
             </div>
           </div>
@@ -188,16 +189,15 @@
 
         <!-- Old Mutual -->
         <div class="timeline-item">
-          <div class="timeline-dot"></div>
           <div class="glass-card timeline-content">
             <h3 class="company-title">Old Mutual Insure</h3>
-            <span class="role-summary">Johannesburg</span>
+            <span class="role-summary"><i class="fas fa-map-marker-alt" style="margin-right: 5px;"></i> Johannesburg</span>
             
             <div class="sub-role">
               <h4>Assistant Underwriter</h4>
               <span class="date">Apr 2021 – Apr 2022</span>
               <ul>
-                <li>Evaluated financial risks by analysing statements for Bonds and Surety products; served as key contact for brokers and clients.</li>
+                <li>Evaluated financial risks by analysing statements for Bonds and Surety products in strict regulatory adherence.</li>
               </ul>
             </div>
           </div>
@@ -205,44 +205,41 @@
 
         <!-- E Bitz -->
         <div class="timeline-item">
-          <div class="timeline-dot"></div>
           <div class="glass-card timeline-content">
             <h3 class="company-title">E Bitz Electronic Engineering Solutions</h3>
-            <span class="role-summary">Johannesburg</span>
+            <span class="role-summary"><i class="fas fa-map-marker-alt" style="margin-right: 5px;"></i> Johannesburg</span>
             
             <div class="sub-role">
               <h4>IT Technician — IoT Infrastructure</h4>
               <span class="date">Aug 2019 – Aug 2020</span>
               <ul>
-                <li>Assembled, commissioned, and maintained IoT gateway devices across industrial sites; troubleshot hardware/software/network issues.</li>
+                <li>Assembled, commissioned, and maintained IoT gateway devices across industrial client sites.</li>
               </ul>
             </div>
           </div>
         </div>
-
       </div>
     </section>
 
     <!-- Education Section -->
     <section id="education" class="section fade-in">
-      <h2 class="section-title">Education & Certifications</h2>
+      <h2 class="section-title">Education & <span class="gradient-text">Certifications</span></h2>
       <div class="edu-flex">
         <div class="glass-card edu-card">
           <h3>National Diploma: Computer Systems Engineering</h3>
-          <p class="company" style="margin-bottom: 1.5rem; color: var(--text-muted);">Tshwane University of Technology</p>
-          <div class="tags">
+          <p class="company">Tshwane University of Technology</p>
+          <div class="tags" style="margin-bottom: 2rem;">
             <span>OOP</span><span>Linux</span><span>Networking</span><span>Architecture</span>
           </div>
-          <br>
-          <a href="assets/Oupa Simango Completion Letter.pdf" target="_blank" class="btn-secondary" style="font-size: 0.9rem; padding: 0.4rem 1rem;">
+          <a href="assets/Oupa Simango Completion Letter.pdf" target="_blank" class="btn-secondary">
             <i class="fas fa-file-pdf"></i> View Completion Letter
           </a>
         </div>
         <div class="glass-card certs-card">
           <h3>Certifications</h3>
-          <ul class="cert-list">
+          <ul class="cert-list" style="margin-top: 1.5rem;">
             <li><i class="fas fa-certificate"></i> Microsoft SC-200 & SC-900</li>
-            <li><i class="fas fa-certificate"></i> Google Data Analytics & IT Support Professional</li>
+            <li><i class="fas fa-certificate"></i> Google Data Analytics & IT Support</li>
             <li><i class="fas fa-certificate"></i> CompTIA Security+ & Cloud+</li>
           </ul>
         </div>
@@ -251,14 +248,14 @@
 
     <!-- Contact / Footer Section -->
     <footer id="contact" class="footer">
-      <h2>Let's Connect</h2>
-      <p>I'm always open to discussing DevOps opportunities and automation challenges.</p>
+      <h2>Ready to Build? <br> <span class="gradient-text">Let's Connect.</span></h2>
+      <p>I'm always open to discussing DevOps opportunities and infrastructure challenges.</p>
       <div class="footer-links">
         <a href="mailto:oupasimango50@gmail.com" class="btn-primary">Email Me</a>
         <a href="https://linkedin.com/in/oupa-simango" target="_blank" class="btn-secondary">LinkedIn</a>
         <a href="https://github.com/oupasimango-Xib" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> GitHub</a>
       </div>
-      <p class="copyright">© 2026 Oupa Simango. Built with ❤️ and Code.</p>
+      <p class="copyright">© 2026 Oupa Simango. Built with Code.</p>
     </footer>
 
   </main>
